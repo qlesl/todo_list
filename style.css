@@ -1,0 +1,93 @@
+body {
+    font-family: Tiny5, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: #ffc400;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex: 1;
+  }
+  
+  aside {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    width: 25%;
+  }
+  
+  aside ul, section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  aside ul li, section ul li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  aside button, section button {
+    margin-top: 1rem;
+    display: block;
+  }
+  
+  section {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .todo-item {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo-item.low {
+    border-left: 5px solid green;
+  }
+  
+  .todo-item.medium {
+    border-left: 5px solid yellow;
+  }
+  
+  .todo-item.high {
+    border-left: 5px solid red;
+  }
+  
+  button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #af8600;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #6e5500;
+  }
+  
+  .delete-folder-btn {
+    margin-left: 10px;
+    padding: 0.2rem 0.4rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  
+  .delete-folder-btn:hover {
+    background-color: darkred;
+  }
+  
